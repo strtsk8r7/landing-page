@@ -1,0 +1,23 @@
+body {
+    font-family: "Roboto";
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
