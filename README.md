@@ -6,7 +6,7 @@ I originally set out for this to be a 1:1 copy of the original stylesheet from T
 <h2>Where I differed from the original stylesheet</h2>
 <ul>
     <li>Utlilizing vh & vw instead of px for box & image sizing.</li>
-    <li>For text sizing I used utopia.fyi for responsive text elements and implemented them using the css font-size: var() function.</li>
+    <li>For text sizing I used <a href="https://utopia.fyi/" target="_blank" rel="noreferrer">utopia.fyi</a> for responsive text elements and implemented them using the css font-size: var() function.</li>
     <li>Also included meta tags in the HTML header for social media optimization; including an image card, twitter card, preview image, title, & description.</li>
 </ul>
 
