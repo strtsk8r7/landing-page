@@ -163,6 +163,7 @@ button {
     flex-direction: column;
     padding-left: 20vw;
     padding-right: 20vw;
+    padding: 5vh;
 }
 
 .quote {
@@ -172,4 +173,11 @@ button {
     text-align: left;
     /*margin-left: 200px;
     margin-right: 200px;*/
+}
+
+.attribution {
+    font-weight: 900;
+    margin-left: 75%;
+    margin-right: 0;
+    margin-top: -25px;
 }
