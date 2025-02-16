@@ -1,5 +1,9 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('/fonts/Roboto-VariableFont_wdth\,wght.ttf');
+}
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     /*background-color: #1f2937;*/
     color: #f9faf8;
     /*font-weight: 900*/;
@@ -7,6 +11,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     min-height: 100vh;
+    margin: 0;
 }
 
 ul {
@@ -150,6 +155,6 @@ button {
     font-weight: 100;
     font-size: var(--step--0);
     text-align: left;
-    margin-left: 200px;
-    margin-right: 200px;
+    /*margin-left: 200px;
+    margin-right: 200px;*/
 }
