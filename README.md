@@ -7,4 +7,7 @@ I originally set out for this to be a 1:1 copy of the original stylesheet from T
 <ul>
     <li>Utlilizing vh & vw instead of px for box & image sizing.</li>
     <li>For text sizing I used utopia.fyi for responsive text elements and implemented them using the css font-size: var() function.</li>
-</ul>    
+    <li>Also included meta tags in the HTML header for social media optimization; including an image card, twitter card, preview image, title, & description.</li>
+</ul>
+
+<strong>*I snuck in some Easter Eggs for fun. Hope at least one gave you a good laugh if you found them*</strong>
