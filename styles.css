@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     background-color: #1f2937;
     color: #f9faf8;
     /*font-weight: 900*/;
@@ -126,6 +131,7 @@ button {
     height: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .quote {
@@ -135,4 +141,13 @@ button {
     text-align: left;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.attribution {
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -40px;
+    text-align: right;
 }
