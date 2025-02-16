@@ -136,6 +136,7 @@ button {
     color: grey;
     margin-left: 5vw;
     margin-right: 5vw;
+    padding: 1vh;
 }
 
 .container-two li {
