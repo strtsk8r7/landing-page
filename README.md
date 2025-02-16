@@ -14,6 +14,7 @@ I originally set out for this to be a 1:1 copy of the original stylesheet from T
     <li> Image file sizes are far too big and need to be compressed</li>
     <li>Floating quote attribution. Will eventually address this with a media query</li>
     <li>Container One text box could be adjusted more to make it truer to the original stylesheet.</li>
+</ul>
 <p>While all of this works and I had fun going deeper into CSS functions, I would not consider it a fully optimized site for desktop & mobile. The text is not accessibility compliant and does not respond to zooming on mobile devices.</p>
 <p>I also intentionally decided to attempt this without using media queries and implementing fully unique designs for mobile, tablet, & desktop viewing in order to stick with the original spirit of this exercise.</p>
 <strong>*I snuck in some Easter Eggs for fun. Hope at least one gave you a good laugh if you found them*</strong>
