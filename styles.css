@@ -148,6 +148,7 @@ button {
     height: 8vh;
     width: 8vh;
     margin-bottom: 8px;
+    overflow: hidden;
 }
 
 .container-two .text-box {
