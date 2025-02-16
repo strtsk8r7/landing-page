@@ -1,16 +1,12 @@
-@font-face {
-    font-family: "Roboto";
-    src: url(fonts/Roboto-VariableFont_wdth\,wght.ttf);
-}
-
 body {
-    font-family: "Roboto";
-    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    /*background-color: #1f2937;*/
     color: #f9faf8;
     /*font-weight: 900*/;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    min-height: 100vh;
 }
 
 ul {
@@ -23,25 +19,31 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
-    font-weight: 20;
+    font-weight: 100;
 }
 
 .header {
+    background-color: #1f2937;
     display: flex;
-    flex: 1;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    height: 8vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.header li {
+    font-size: 18px;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
 }
 
 .container-one img {
     
-    max-width: 400px;
+    max-width: 30vw;
     border: 4px solid #e5e7eb;
     transform: scaleY(-1);
     display: flex;
@@ -52,23 +54,23 @@ a {
 
 
 .container-one {
+    background-color: #1f2937;
     display: flex;
     flex: 1;
     gap: 20px;
     align-items: center;
-    max-width: 100%;
-    margin-left: 100px;
-    margin-right: 100px;
-    height: 500px;
+    justify-content: center;
+    height: 400px;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .container-one .container-one-text {
     text-wrap: wrap;
-    width: 450px;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: calc(--step-5);
     font-weight: 900;
 }
 
@@ -98,56 +100,56 @@ button {
     display: flex;
     flex: 1;
     flex-direction: column;
-    height: 500px;
+    height: 20vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .container-two ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 1.5vh;
     font-weight: 100;
     gap: 10px;
     color: grey;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.container-two li {
+    height: 2vh;
 }
 
 .container-two img {
     border: solid #3882f6;
     border-radius: 20px;
-    height: 130px;
-    width: 130px;
+    height: 8vh;
+    width: 8vh;
     margin-bottom: 8px;
 }
 
 .container-two .text-box {
-    width: 130px;
+    width: 10vh;
+    height: 10vh;
 }
 
 .container-three {
     background-color: #e5e7eb;
     color: #1f2937;
-    height: 400px;
+    height: 20vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .quote {
     font-style: italic;
     font-weight: 100;
-    font-size: 36px;
+    font-size: var(--step--0);
     text-align: left;
     margin-left: 200px;
     margin-right: 200px;
-}
-
-.attribution {
-    font-weight: 900;
-    font-size: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: -40px;
-    text-align: right;
 }
