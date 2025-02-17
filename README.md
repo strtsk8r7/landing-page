@@ -9,7 +9,7 @@ I originally set out for this to be a 1:1 copy of the original stylesheet from T
     <li>For text sizing I used <a href="https://utopia.fyi/" target="_blank" rel="noopener noreferrer">utopia.fyi</a> for responsive text elements and implemented them using the css font-size: var() function.</li>
     <li>Also included meta tags in the HTML header for social media optimization; including an image card, twitter card, preview image, title, & description.</li>
 </ul>
-<h2>Things to be address later</h2>
+<h2>Things to be addressed later</h2>
 <ul>
     <li> Image file sizes are far too big and need to be compressed</li>
     <li>Floating quote attribution. Will eventually address this with a media query</li>
