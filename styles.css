@@ -11,6 +11,7 @@
     --step-3: clamp(1.6018rem, 0.6873rem + 3.6579vw, 3.888rem);
     --step-4: clamp(1.802rem, 0.6566rem + 4.5817vw, 4.6656rem);
     --step-5: clamp(2.0273rem, 0.5987rem + 5.7143vw, 5.5987rem);
+    --step--6: clamp(0.5rem, 0.3519rem + 0.7407vw, 1rem);
   }
 
 @font-face {
@@ -222,9 +223,9 @@ button {
     border: solid #f9faf8 3px;
     margin-right: 3vw;
     height: 4vw;
-    width: 17vw;
+    width: 18vw;
     padding: 1vw;
-    font-size: var(--step--4);
+    font-size: var(--step--6);
 }
 
 .container-four {
