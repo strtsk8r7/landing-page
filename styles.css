@@ -183,3 +183,43 @@ button {
     margin-right: 0;
     margin-top: -25px;
 }
+
+.box {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 60vw;
+    height: 10vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--step--4);
+}
+
+.box ul {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 10%;
+    gap: 0;
+}
+
+.box li {
+    /*margin-bottom: -20px;*/
+    width: 30vw;
+}
+
+.box .sign-up {
+    
+    align-items: center;
+    border: solid #f9faf8 3px;
+    margin-right: 5vw;
+    height: 4vh;
+    width: 13vw;
+}
+
+.container-four {
+    padding: 10vh;
+}
