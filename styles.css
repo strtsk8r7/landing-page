@@ -187,13 +187,16 @@ button {
 .box {
     background-color: #3882f6;
     border-radius: 10px;
-    width: 60vw;
+    width: 80vw;
     height: 10vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: var(--step--4);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 3vw;
 }
 
 .box ul {
@@ -202,24 +205,31 @@ button {
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    font-size: var(--step--4);
     padding-left: 10%;
     gap: 0;
+        
 }
 
 .box li {
-    /*margin-bottom: -20px;*/
-    width: 30vw;
+    margin-bottom: -12px;
 }
 
 .box .sign-up {
-    
+    display: flex;
+    justify-content: center;
     align-items: center;
     border: solid #f9faf8 3px;
-    margin-right: 5vw;
-    height: 4vh;
-    width: 13vw;
+    margin-right: 3vw;
+    height: 4vw;
+    width: 17vw;
+    padding: 1vw;
+    font-size: var(--step--4);
 }
 
 .container-four {
-    padding: 10vh;
+    display: flex;
+    padding: 5vh;
+    justify-content: center;
+    align-items: center;
 }
