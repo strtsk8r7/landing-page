@@ -198,6 +198,7 @@ button {
     padding-right: 2vw;
     padding-top: 2vh;
     padding-bottom: 2vh;
+    gap: 2vw;
 }
 
 .box ul {
@@ -243,4 +244,19 @@ button {
 
 h3 {
     margin: 0;
+}
+
+@media (width >= 650px) {
+    .box ul {
+        font-size: var(--step--1);
+    }
+    .container-one-text {
+        padding-right: 20vw;
+    }
+    .box {
+        gap: 3em;
+    }
+    .box .sign-up {
+        font-size: var(--step--3);
+    }
 }
